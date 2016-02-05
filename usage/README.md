@@ -7,7 +7,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: Page
 
 ``` hbs
-{{! @INSERT :: START @id: figure, @tag: component }}
+{{! @INSERT :: START @id: figure, @tag: component-partial }}
 {{#with figure-bp.simple}}
 	{{> c-figure}}
 {{/with}}
@@ -25,7 +25,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @id: scss-import, @tag: component
+// @INSERT :: START @id: scss-import
 @import "components/_c-figure";
 // @INSERT :: END
 ```
