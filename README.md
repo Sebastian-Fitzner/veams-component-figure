@@ -40,7 +40,7 @@ The Figure component contains the picture and video component as dependency and 
 
 - settings.figureContextClass {`String`} [default] - _Context class of the rte._
 - settings.figureClasses {`String`} - _Modifier classes for the rte._
-- settings.figureId {`String`} - _ust pass a string when using an id for the figure._
+- settings.figureId {`String`} - _Just pass a custom string when using an id for the figure._
 
 #### Content 
 
