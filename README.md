@@ -1,31 +1,52 @@
+<p align="right">
+    <a href="https://badge.fury.io/bo/veams-component-figure"><img src="https://badge.fury.io/bo/veams-component-figure.svg" alt="Bower version" height="20"></a>
+    <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
+</p>
+
 # Figure
 
-This blueprint is based on the blueprint of Veams-Components.
+## Description
 
-## Usage
+The Figure component contains the picture and video component as dependency and prints out every necessary field for html figures. 
 
-### Include: Page
+-----------
 
-``` hbs
-{{! @INSERT :: START @id: figure, @tag: component-partial }}
-{{#with figure-bp.simple}}
-	{{> c-figure}}
-{{/with}}
+## Requirements
 
-{{#with figure-bp.caption}}
-	{{> c-figure}}
-{{/with}}
+- [veams-component-picture]() - _Picture component in Veams._
+- [veams-component-video]() - _Video component in Veams._
 
-{{#with figure-bp.video}}
-	{{> c-figure}}
-{{/with}}
-{{! @INSERT :: END }}
-```
+-----------
 
-### Include: SCSS
+## Installation 
 
-``` scss
-// @INSERT :: START @tag: scss-import 
-@import "components/_c-figure";
-// @INSERT :: END
-```
+### Installation with Veams
+
+`veams install vc figure`
+
+### Installation with Bower
+
+`bower install veams-component-figure --save`
+
+----------- 
+
+## Fields
+
+#### Settings
+
+- settings.figureContextClass {`String`} [default] - _Context class of the rte._
+- settings.figureClasses {`String`} - _Modifier classes for the rte._
+- settings.figureId {`String`} - _ust pass a string when using an id for the figure._
+
+#### Content 
+
+- content.figureCaption (`Object`) - _Contains multiple elements_
+- content.figureCaption.figureCaptionClasses (`String`) - _Modifier classes_
+- content.figureCaption.captionHeadline (`String`) - _Headline_
+- content.figureCaption.captionContent (`String`) - _Content_
+
+##### Nested Data Fields
+
+- content.figurePicture (Object) - @see [requirements](#requirements)
+- content.figureVideo (Object) - @see [requirements](#requirements)
+
