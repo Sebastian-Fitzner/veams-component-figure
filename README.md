@@ -7,14 +7,18 @@
 
 ## Description
 
+The `<figure>` element is intended to be used in conjunction with the `<figcaption>` element to mark up diagrams, illustrations, photos code examples and other things. The specs says this:
+
+> The HTML `<figure>` element represents self-contained content, frequently with a caption (`<figcaption>`), and is typically referenced as a single unit. 
+
 The Figure component contains the picture and video component as dependency and prints out every necessary field for html figures. 
 
 -----------
 
 ## Requirements
 
-- [veams-component-picture]() - _Picture component in Veams._
-- [veams-component-video]() - _Video component in Veams._
+- [veams-component-picture](https://github.com/Veams/veams-component-picture) - _Picture component in Veams._
+- [veams-component-video](https://github.com/Veams/veams-component-video) - _Video component in Veams._
 
 -----------
 
