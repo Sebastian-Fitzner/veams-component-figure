@@ -24,7 +24,7 @@
 @import "components/_c-figure";
 // @INSERT :: END //
 
-// @INSERT :: START @tag: scss-import-self-contained //
+// @INSERT :: START @tag: scss-self-contained-import //
 @import "../templating/partials/components/figure/scss/_c-figure";
 // @INSERT :: END //
 ```
