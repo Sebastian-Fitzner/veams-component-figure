@@ -20,11 +20,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import //
-@import "components/_c-figure";
-// @INSERT :: END //
-
 // @INSERT :: START @tag: scss-self-contained-import //
-@import "../templating/partials/components/figure/scss/_c-figure";
+@import "../components/figure/scss/_c-figure";
 // @INSERT :: END //
 ```
