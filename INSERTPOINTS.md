@@ -1,3 +1,4 @@
+## Usage
 
 ### Include: Page
 
@@ -15,12 +16,4 @@
 	{{> c-figure}}
 {{/with}}
 {{! @INSERT :: END }}
-```
-
-### Include: SCSS
-
-``` scss
-// @INSERT :: START @tag: scss-self-contained-import //
-@import "../components/figure/scss/_c-figure";
-// @INSERT :: END //
 ```
