@@ -1,3 +1,6 @@
+### v5.0.2
+- Rename settings file
+
 ### v5.0.1
 - Fix scss file reference in settings
 
