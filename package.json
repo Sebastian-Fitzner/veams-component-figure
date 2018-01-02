@@ -1,6 +1,6 @@
 {
 	"name": "veams-component-figure",
-	"version": "5.0.2",
+	"version": "5.1.0",
 	"description": "The `<figure>` element is intended to be used in conjunction with the `<figcaption>` element to mark up diagrams, illustrations, photos code examples and other things",
 	"repository": {
 		"type": "git",

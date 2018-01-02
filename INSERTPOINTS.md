@@ -5,15 +5,15 @@
 ``` hbs
 {{! @INSERT :: START @id: figure, @tag: component-partial }}
 {{#with figure-bp.simple}}
-	{{> c-figure}}
+	{{> figure}}
 {{/with}}
 
 {{#with figure-bp.caption}}
-	{{> c-figure}}
+	{{> figure}}
 {{/with}}
 
 {{#with figure-bp.video}}
-	{{> c-figure}}
+	{{> figure}}
 {{/with}}
 {{! @INSERT :: END }}
 ```
