@@ -1,10 +1,10 @@
 {
-	"name": "veams-component-figure",
-	"version": "5.1.0",
+	"name": "@veams/component-figure",
+	"version": "1.0.0",
 	"description": "The `<figure>` element is intended to be used in conjunction with the `<figcaption>` element to mark up diagrams, illustrations, photos code examples and other things",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Veams/veams-component-figure.git"
+		"url": "git://github.com/Veams/component-figure.git"
 	},
 	"keywords": [
 		"veams"
@@ -12,7 +12,7 @@
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Veams/veams-component-figure/issues"
+		"url": "https://github.com/Veams/component-figure/issues"
 	},
-	"homepage": "https://github.com/Veams/veams-component-figure#readme"
+	"homepage": "https://github.com/Veams/component-figure#readme"
 }

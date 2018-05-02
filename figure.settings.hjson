@@ -1,11 +1,11 @@
 {
 	"type": "component",
-	"contextData": "figure-bp",
+	"contextData": "figure",
 	"layout": "lyt-docs",
 	"subTemplates": [
-		"templates/figure__caption.hbs"
+		"figure__caption.hbs"
 	],
 	"scssFiles": [
-		"styles/_figure.scss"
+		"_figure.scss"
 	]
 }

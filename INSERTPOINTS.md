@@ -4,15 +4,15 @@
 
 ``` hbs
 {{! @INSERT :: START @id: figure, @tag: component-partial }}
-{{#with figure-bp.simple}}
+{{#with figurp.variations.simple}}
 	{{> figure}}
 {{/with}}
 
-{{#with figure-bp.caption}}
+{{#with figure.variations.caption}}
 	{{> figure}}
 {{/with}}
 
-{{#with figure-bp.video}}
+{{#with figure.variations.video}}
 	{{> figure}}
 {{/with}}
 {{! @INSERT :: END }}
