@@ -4,7 +4,7 @@
 
 ``` hbs
 {{! @INSERT :: START @id: figure, @tag: component-partial }}
-{{#with figurp.variations.simple}}
+{{#with figure.variations.simple}}
 	{{> figure}}
 {{/with}}
 
